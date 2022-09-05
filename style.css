@@ -1,5 +1,21 @@
 body {
     margin: 0;
-    background: red;
+    background:;
     font-family: Helvetica;
+}
+
+main {
+    background: ;
+    display: grid;
+    grid-template-columns: 300px 200px;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 300px 200px;
 }
