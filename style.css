@@ -1,21 +1,68 @@
 body {
-    margin: 0;
-    background:;
-    font-family: Helvetica;
+    overflow: hidden;
+    font-family: Helvetica, Arial, Sans-serif;
+    margin: 30px;
 }
 
-main {
-    background: ;
+h1 {font-size: 64px; font-weight: 800; margin: 0;}
+h2 {font-size: 48; font-weight: 600; margin: 0;}
+h3 {font-size: 32px; font-weight: 300; margin: 0;}
+h4 {font-size: 24px; font-weight: 300; margin: 0;}
+h5 {font-size: 18px; font-weight: 300; margin: 0;}
+p {font-size: 16;}
+
+.container {
+    height: 100vh;
+    width: 100vw;
     display: grid;
-    grid-template-columns: 300px 200px;
-}
-
-.logo {
-    width: 300px;
-    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px 1fr 80px;
 }
 
 header {
+    height: 120px;
+}
+
+.logo {
+    height: 120px;
+}
+
+.sidebar {
+    padding: 10px 0px;
+}
+
+.footer {
+    padding: 10px 0px;
+}
+
+.body {
     display: grid;
-    grid-template-columns: 300px 200px;
+    grid-template-columns: 301px 1fr;
+    overflow: hidden;
+}
+
+.content {
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.hero-banner {
+    height: 75vh;
+    background-image: url(https://user-images.githubusercontent.com/112733712/188592570-4d021977-dfc2-4821-a265-e5fb28618bb4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul, .navigation-main {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.navigation-main, a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    line-height: 44px;
+    font-weight: 500;
 }
