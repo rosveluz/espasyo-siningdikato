@@ -1,7 +1,7 @@
 body {
     overflow: hidden;
     font-family: Helvetica, Arial, Sans-serif;
-    margin: 30px;
+    margin: 30px 30px;
 }
 
 h1 {font-size: 64px; font-weight: 800; margin: 0;}
@@ -13,7 +13,7 @@ p {font-size: 16;}
 
 .container {
     height: 100vh;
-    width: 100vw;
+    width: 92vw;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 120px 1fr 80px;
@@ -25,6 +25,7 @@ header {
 
 .logo {
     height: 120px;
+    margin-bottom: 30px;
 }
 
 .sidebar {
@@ -43,7 +44,7 @@ header {
 
 .content {
     overflow-y: scroll;
-    padding: 10px;
+
 }
 
 .hero-banner {
